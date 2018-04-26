@@ -1,7 +1,7 @@
 # Mandatory settings
 
 blog_theme: light # Or use dark
-name: Chalk
+name: MaxLab
 paginate: 25
 url: https://cronobow.github.io/ # add your site url (format: https://example.com)
 
@@ -17,10 +17,10 @@ rss_enabled: true # Change to false if not
 scrollappear_enabled: true # Change to false to disable
 social:
   dribbble: # Add your Dribbble handle
-  facebook: # Add your Facebook handle
+  facebook: cronobow # Add your Facebook handle
   flickr: # Add your Flickr handle
-  github: # Add your GitHub handle
-  linkedin: # Add your LinkedIn handle
+  github: cronobow # Add your GitHub handle
+  linkedin: cronobow # Add your LinkedIn handle
   twitter: # Add your Twitter handle
   email: # Add your Email address
   bitcoin: # Add your Bitcoin link or address
@@ -34,7 +34,7 @@ social:
   docker: # Add your Docker Hub handle
   instagram: # Add your Instagram handle
   keybase: # Add your Keybase handle
-  medium: # Add your Medium handle
+  medium: '@cronobow' # Add your Medium handle
   spotify: # Add your Spotify handle
   stackoverflow: # Add your Stack Overflow ID number
   steam: # Add your Steam handle
