@@ -3,7 +3,8 @@ layout: post
 title: "git 的最佳學習資源"
 date: 2017-09-20 22:36:51 +0800
 comments: true
-tags: [git]
+tags: 
+- git
 ---
 Git 其實是一個困擾我蠻久的小東西。該怎麼說呢？
 

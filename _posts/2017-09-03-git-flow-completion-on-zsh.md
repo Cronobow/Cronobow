@@ -3,7 +3,8 @@ layout: post
 title: "git-flow-completion on zsh"
 date: 2017-09-03 09:27:32 +0800
 comments: true
-tags: [git]
+tags: 
+- git
 ---
 最近公司決定正式導入 git flow 的開發流程。所以我也安裝了 git flow 和 git-flow-completion。
 
@@ -15,10 +16,10 @@ tags: [git]
 
 後來偉大的 google 大神幫我找到了一個解法，就在 oh-my-zsh 的 一個 issues 裡面:
 
-{% highlight zsh %}
+```zsh
 brew uninstall git
 brew install git --without-completions
-{% endhighlight %}
+```
 
 總之就是裝一份沒有 autocompletions 的 git 就可以了。
 

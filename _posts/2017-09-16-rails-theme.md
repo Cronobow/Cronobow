@@ -3,7 +3,9 @@ layout: post
 title: "在 Rails 裡面安裝 Metronic theme"
 date: 2017-09-16 09:53:00 +0800
 comments: true
-tags: [ruby,rails]
+tags: 
+- ruby
+- rails
 ---
 在我還不會寫任何程式之前，前在 Themeforest 裡面買了一個 Admin theme。也不知道當時怎麼會想買。
 

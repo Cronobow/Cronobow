@@ -2,7 +2,7 @@
 
 blog_theme: light # Or use dark
 name: MaxLab
-paginate: 25
+paginate: 10
 url: https://cronobow.github.io/ # add your site url (format: https://example.com)
 
 
@@ -80,3 +80,4 @@ plugins:
   - jemoji
 paginate_path: /posts/page/:num/
 permalink: posts/:slug
+excerpt_separator: <!-- more -->
