@@ -44,6 +44,17 @@
   }
 }
 
+.header-intro{
+  margin-top:20px;
+  p {
+    font-size: 15px;
+    color: $gray-light;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
 @include breakpoint(extra-small) {
   .header-nav {
     text-align: center;
