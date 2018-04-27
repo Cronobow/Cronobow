@@ -1,9 +1,9 @@
 ---
 layout: post
+date: 2016-09-03 09:27:32 +0800
 title: "Chalk sample post with all elements"
 description: "Have a look at all the predesigned elements you can use in Chalk."
 thumb_image: "documentation/sample-image.jpg"
-tags: [design, jekyll]
 ---
 
 Chalk uses the default Jekyll syntax highlighting gem Rouge. It has a customized style for both light and dark theme.
@@ -88,6 +88,7 @@ If you wish that an image can be enlarged on click use the image include tag. Yo
                       alt="Sample image" %}
 {% endraw %}
 {% endhighlight %}
+
 
 Videos can be added and are responsive by default (4x3 by default, 16x9 with extra class).
 
