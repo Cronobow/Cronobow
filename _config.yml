@@ -3,7 +3,7 @@
 blog_theme: light # Or use dark
 name: MaxLab
 paginate: 10
-url: https://cronobow.github.io/ # add your site url (format: https://example.com)
+url: https://maxlab.tw # add your site url (format: https://example.com)
 
 
 # Optional settings
