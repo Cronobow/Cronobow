@@ -4,8 +4,7 @@ title: "安裝 Ruby on Rails 環境重點筆記"
 date: 2017-10-20 18:48:04 +0800
 comments: true
 tags:
-- ruby
-- rails
+- ruby on rails
 - sublime
 ---
 這次趁著 macOS 升級的同時，大整理一次電腦中的程式，順便重新把 ruby on rail 的環境安裝，做一個整理筆記。
