@@ -12,3 +12,6 @@ gem "mini_magick"
 gem "sass"
 gem "sprockets", "4.0.0.beta6"
 gem "uglifier"
+
+gem 'jekyll-admin', group: :jekyll_plugins
+
