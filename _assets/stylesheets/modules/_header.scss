@@ -52,6 +52,9 @@
   }
   a {
     text-decoration: none;
+    &:hover {
+      color: $header-link-color-hover;
+    }
   }
 }
 

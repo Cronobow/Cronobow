@@ -32,7 +32,7 @@ $base-border-color: $gray-lightest;
 $body-background: $white;
 $header-logo-color: $black;
 $header-link-color: $gray-darker;
-$header-link-color-hover: $gray-darkest;
+$header-link-color-hover: #d14;
 $article-header-title-color: $gray-darkest;
 $article-header-description-color: $gray-dark;
 $article-post-titles-color: $gray-darkest;
@@ -62,6 +62,7 @@ $article-paginator-color-hover: #d14;
 
 // Modules
 
+@import "modules/jf";
 @import "modules/about";
 @import "modules/articles";
 @import "modules/embed";
