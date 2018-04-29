@@ -2,6 +2,7 @@
 layout: default
 title: "Max 的網路實驗室"
 description: "我是 Max，這裡是關於 Ruby on Rails, Google Analytics, 與 Startup 的研究筆記"
+regenerate: true
 ---
 
 <ul class="article-list">
@@ -27,10 +28,10 @@ description: "我是 Max，這裡是關於 Ruby on Rails, Google Analytics, 與 
         <span class="article-list-divider">-</span>
         <span class="article-list-minutes">
           {% capture words %}
-            {{ post.content | number_of_words }}
+            {{ post.content | strip_html | strip_newlines | size }}
           {% endcapture %}
           {% unless words contains "-" %}
-            {{ words | plus: 250 | divided_by: 250 | append: " minute read" }}
+            {{ words | plus: 500 | divided_by: 500 | append: " minute read" }}
           {% endunless %}
         </span>
         <span class="article-list-divider">-</span>

@@ -81,4 +81,4 @@ plugins:
 paginate_path: /posts/page/:num/
 permalink: posts/:slug
 excerpt_separator: <!-- more -->
-incremental: true
+incremental: false
