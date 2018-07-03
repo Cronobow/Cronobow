@@ -1,4 +1,0 @@
----
-slug: sublime
-name: Sublime
----

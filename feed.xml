@@ -1,20 +1,90 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ page.path | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>MaxLab</title>
+    <description></description>
+    <link>https://maxlab.tw</link>
+    <atom:link href="https://maxlab.tw/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.description | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        <title>ASW Summit Taipei 2018 議題回顧</title>
+        <description></description>
+        <pubDate>Mon, 02 Jul 2018 19:20:32 +0800</pubDate>
+        <link>https://maxlab.tw/posts/aws-summit-2018-review</link>
+        <guid isPermaLink="true">https://maxlab.tw/posts/aws-summit-2018-review</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Google Analytics 的使用上限</title>
+        <description></description>
+        <pubDate>Sun, 07 Jan 2018 21:11:17 +0800</pubDate>
+        <link>https://maxlab.tw/posts/google-analytics-limit</link>
+        <guid isPermaLink="true">https://maxlab.tw/posts/google-analytics-limit</guid>
+      </item>
+    
+      <item>
+        <title>五個 Google Analytics 初期設置要點</title>
+        <description></description>
+        <pubDate>Sun, 31 Dec 2017 22:21:15 +0800</pubDate>
+        <link>https://maxlab.tw/posts/5-point-of-ga-setting</link>
+        <guid isPermaLink="true">https://maxlab.tw/posts/5-point-of-ga-setting</guid>
+      </item>
+    
+      <item>
+        <title>CSS 的 Child 和 Sibling 選擇器示範方法</title>
+        <description></description>
+        <pubDate>Wed, 22 Nov 2017 20:31:27 +0800</pubDate>
+        <link>https://maxlab.tw/posts/child-and-sibling-selectors</link>
+        <guid isPermaLink="true">https://maxlab.tw/posts/child-and-sibling-selectors</guid>
+      </item>
+    
+      <item>
+        <title>創業初期：專注於產品本身</title>
+        <description></description>
+        <pubDate>Fri, 10 Nov 2017 22:16:17 +0800</pubDate>
+        <link>https://maxlab.tw/posts/good-product</link>
+        <guid isPermaLink="true">https://maxlab.tw/posts/good-product</guid>
+      </item>
+    
+      <item>
+        <title>關於一個好點子</title>
+        <description></description>
+        <pubDate>Sun, 05 Nov 2017 21:52:34 +0800</pubDate>
+        <link>https://maxlab.tw/posts/good-idea</link>
+        <guid isPermaLink="true">https://maxlab.tw/posts/good-idea</guid>
+      </item>
+    
+      <item>
+        <title>Sublime 中 Markdown 的換行問題</title>
+        <description></description>
+        <pubDate>Tue, 31 Oct 2017 13:33:14 +0800</pubDate>
+        <link>https://maxlab.tw/posts/markdown-space</link>
+        <guid isPermaLink="true">https://maxlab.tw/posts/markdown-space</guid>
+      </item>
+    
+      <item>
+        <title>安裝 Ruby on Rails 環境重點筆記</title>
+        <description></description>
+        <pubDate>Fri, 20 Oct 2017 18:48:04 +0800</pubDate>
+        <link>https://maxlab.tw/posts/start-ruby-on-rails</link>
+        <guid isPermaLink="true">https://maxlab.tw/posts/start-ruby-on-rails</guid>
+      </item>
+    
+      <item>
+        <title>Code School – Try SQL 筆記 #3</title>
+        <description></description>
+        <pubDate>Tue, 17 Oct 2017 12:20:01 +0800</pubDate>
+        <link>https://maxlab.tw/posts/code-school-try-sql-3</link>
+        <guid isPermaLink="true">https://maxlab.tw/posts/code-school-try-sql-3</guid>
+      </item>
+    
+      <item>
+        <title>Code School – Try SQL 筆記 #2</title>
+        <description></description>
+        <pubDate>Sun, 15 Oct 2017 20:05:45 +0800</pubDate>
+        <link>https://maxlab.tw/posts/code-school-try-sql-2</link>
+        <guid isPermaLink="true">https://maxlab.tw/posts/code-school-try-sql-2</guid>
+      </item>
+    
   </channel>
 </rss>
